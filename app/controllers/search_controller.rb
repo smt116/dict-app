@@ -16,6 +16,7 @@ class SearchController < ApplicationController
       format.html do
         response.headers["Cache-Control"] = "no-cache"
         response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "Sun, 06 Nov 1994 08:49:37 GMT"
       end
       format.json  do
         begin
