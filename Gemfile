@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'dict', '~> 0.3.5'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'dict', :git => 'git://github.com/Ragnarson/dict-gem.git'
 
 gem 'sqlite3'
 gem 'haml'
