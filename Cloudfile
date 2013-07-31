@@ -4,9 +4,7 @@ dict-app-staging:
   monitoring_email: rafal.osko@gmail.com
   domains:
     - dict-app-staging.shellyapp.com
-    - staging.dicteo.pl
-    - www.dicteo.pl
-    - dicteo.pl
+    - dicteo.ragnarson.com
   servers:
     app1:
       size: large
