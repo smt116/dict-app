@@ -1,5 +1,5 @@
 # dict [![Build Status](https://secure.travis-ci.org/Ragnarson/dict-app.png?branch=master)](http://travis-ci.org/Ragnarson/dict-app)
-Web frontend and API for [dict](http://dicteo.pl/).
+Web frontend and API for [dict](http://dicteo.ragnarson.com/).
 
 ## API
 ### HTML
@@ -16,10 +16,10 @@ To get a list of available dictionaries (JSON only):
     http://hostname/dictionaries/list
 
 ### JSON
-`curl -v -H "Accept: application/json" -X POST http://dicteo.pl/?q=dziewica`
-`curl -v -H "Accept: application/json" -X GET http://dicteo.pl/dictionaries/glosbe?q=dziewica`
-`curl -v -H "Accept: application/json" -X GET http://dicteo.pl/dictionaries/wiktionary?q=dziewica`
-`curl -v -H "Accept: application/json" -X GET http://dicteo.pl/dictionaries`
+`curl -v -H "Accept: application/json" -X POST http://dicteo.ragnarson.com/?q=dziewica`
+`curl -v -H "Accept: application/json" -X GET http://dicteo.ragnarson.com/dictionaries/glosbe?q=dziewica`
+`curl -v -H "Accept: application/json" -X GET http://dicteo.ragnarson.com/dictionaries/wiktionary?q=dziewica`
+`curl -v -H "Accept: application/json" -X GET http://dicteo.ragnarson.com/dictionaries`
 
 ## Contributing
 
