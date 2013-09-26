@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'dict', :git => 'git://github.com/Ragnarson/dict-gem.git'
+gem 'dict', :git => 'https://github.com/Ragnarson/dict-gem.git'
 
 gem 'sqlite3'
 gem 'haml'

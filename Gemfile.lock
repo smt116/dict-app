@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/Ragnarson/dict-gem.git
+  remote: https://github.com/Ragnarson/dict-gem.git
   revision: 0931b681cc8387de6f1ea00ee6be5770df02e582
   specs:
     dict (0.3.7)
