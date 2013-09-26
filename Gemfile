@@ -20,8 +20,7 @@ group :assets do
 end
 
 group :production do
-	gem 'shelly'
-	gem 'thin'
+  gem 'thin'
 end
 
 group :development, :test do
